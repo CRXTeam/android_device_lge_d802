@@ -1,2 +1,3 @@
 add_lunch_combo full_d802-eng
 add_lunch_combo full_d802-userdebug
+add_lunch_combo full_d802-user
