@@ -18,14 +18,10 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the long list of APNs
-#PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-$(call inherit-product, vendor/eos/config/gsm.mk)
-
-$(call inherit-product, vendor/eos/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/d802/device.mk)
