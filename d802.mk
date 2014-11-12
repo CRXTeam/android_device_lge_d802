@@ -17,7 +17,7 @@
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
-$(call inherit-product-if-exists, vendor/lge/galbi/galbi-gsm-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/d802/d802-vendor.mk)
 $(call inherit-product, device/lge/g2-common/g2.mk)
 
 # Inherit from the common Open Source product configuration
