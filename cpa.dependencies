@@ -1,26 +1,27 @@
 [
-  {
-    "remote": "CRX",
-    "repository": "android_device_lge_g2-common",
-    "target_path": "device/lge/g2-common",
-    "revision": "kitkat"
-  },
-  {
-    "remote": "cm",
-    "repository": "CyanogenMod/android_kernel_lge_msm8974",
-    "target_path": "kernel/lge/msm8974",
-    "revision": "cm-11.0"
-  },
-  {
-    "remote": "cm",
-    "repository": "CyanogenMod/android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision": "cm-11.0"
-  },
-  {
-    "remote": "cm",
-    "repository": "TheMuppets/proprietary_vendor_lge",
-    "target_path": "vendor/lge",
-    "revision": "cm-11.0"
-  }
+    {
+        "remote":       "gh",
+        "repository":   "CyanogenMod/android_device_qcom_common",
+        "target_path":	"device/qcom/common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote": "CRX",
+        "repository": "android_device_lge_g2-common",
+        "target_path": "device/lge/g2-common",
+        "revision": "kitkat"
+    },
+    {
+        "remote":       "gh",
+        "repository":   "jakew02/proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "android-4.4"
+    },
+    {
+        "remote":       "gh",
+        "repository":   "AICP/kernel_lge_msm8974",
+        "target_path":  "kernel/lge/msm8974",
+        "revision":     "kitkat"
+    }
 ]
+

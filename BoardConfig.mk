@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CrystalPA Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_d802_defconfig
+TARGET_KERNEL_CONFIG := d802_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := d802,g2,galbi,d800
 
